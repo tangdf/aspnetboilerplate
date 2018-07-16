@@ -79,7 +79,7 @@ namespace Abp.EntityFrameworkCore.Tests
 
             protected override void OnModelCreating(ModelBuilder modelBuilder) {
                 modelBuilder.Entity<GuidEntity>().ToTable("GuidTable");
-                modelBuilder.Entity<GuidEntity>().Property(e => e.Id).ValueGeneratedOnAdd();
+                modelBuilder.Entity<GuidEntity>().Property(e => e.Id);
                 base.OnModelCreating(modelBuilder);
             }
         }
