@@ -26,6 +26,7 @@ Common Structures
 Domain Layer
 
 -   [Entities](Entities.md)
+    -   [Multi-Lingual Entities <label class="label label-success">NEW</label>](Multi-Lingual-Entities.md)
 -   [Value Objects](Value-Objects.md)
 -   [Repositories](Repositories.md)
 -   [Domain Services](Domain-Services.md)
@@ -42,7 +43,7 @@ Application Layer
 -   [Authorization](Authorization.md)
 -   [Feature Management](Feature-Management.md)
 -   [Audit Logging](Audit-Logging.md)
--   [Entity History](Entity-History.md) <label class="label label-success">NEW</label>
+-   [Entity History <label class="label label-success">NEW</label>](Entity-History.md)
 
 Distributed Service Layer
 
@@ -60,7 +61,7 @@ Presentation Layer
     -   [Handling Exceptions](Handling-Exceptions.md)
 -   ASP.NET Core
     -   [ASP.NET Core Integration](AspNet-Core.md)
-    -   [ASP.NET Core OData Integration](OData-AspNetCore-Integration.md) <label class="label label-success">NEW</label>
+    -   [ASP.NET Core OData Integration <label class="label label-success">NEW</label>](OData-AspNetCore-Integration.md)
 -   [Localization](Localization.md)
 -   [Navigation](Navigation.md)
 -   [Embedded Resources](Embedded-Resource-Files.md)
@@ -77,7 +78,7 @@ Real Time Services
 
 -   [Notification System](Notification-System.md)
 -   [SignalR Integration](SignalR-Integration.md)
--   [SignalR ASP.NET Core Integration](SignalR-AspNetCore-Integration.md) <label class="label label-success">NEW</label>
+-   [SignalR ASP.NET Core Integration <label class="label label-success">NEW</label>](SignalR-AspNetCore-Integration.md)
 
 Object-Relational Mapping
 
@@ -97,7 +98,7 @@ Releases
 -   Startup Templates
     -   [ASP.NET Core & Angular](Zero/Startup-Template-Angular.md)
     -   [ASP.NET Core MVC & jQuery](Zero/Startup-Template-Core.md)
-    -   [ASP.NET MVC 5.x / Angularjs 1.x](Zero/Startup-Template.md)
+    -   [ASP.NET MVC 5.x / AngularJS 1.x](Zero/Startup-Template.md)
 -   Features
     -   [Tenant Management](/Pages/Documents/Zero/Tenant-Management)
     -   [Edition Management](/Pages/Documents/Zero/Edition-Management)
@@ -116,4 +117,4 @@ Releases
 -   Chinese translations of ABP's documentation (thanks to all contributors)
     -   Source 1: [cnblogs.com/farb/p/ABPTheory.html](http://www.cnblogs.com/farb/p/ABPTheory.html)
     -   Source 2: [cnblogs.com/mienreal](http://www.cnblogs.com/mienreal/p/4528470.html)
-    -   Github: [github.com/ABPFrameWorkGroup/AbpDocument2Chinese](https://github.com/ABPFrameWorkGroup/AbpDocument2Chinese)
+    -   GitHub: [github.com/ABPFrameWorkGroup/AbpDocument2Chinese](https://github.com/ABPFrameWorkGroup/AbpDocument2Chinese)

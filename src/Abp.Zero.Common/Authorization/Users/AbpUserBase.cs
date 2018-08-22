@@ -18,7 +18,7 @@ namespace Abp.Authorization.Users
         /// <summary>
         /// Maximum length of the <see cref="UserName"/> property.
         /// </summary>
-        public const int MaxUserNameLength = 32;
+        public const int MaxUserNameLength = 256;
 
         /// <summary>
         /// Maximum length of the <see cref="EmailAddress"/> property.
@@ -81,7 +81,7 @@ namespace Abp.Authorization.Users
         /// It's set to external authentication source name if created by an external source.
         /// Default: null.
         /// </summary>
-        [MaxLength(MaxAuthenticationSourceLength)]
+        [StringLength(MaxAuthenticationSourceLength)]
         public virtual string AuthenticationSource { get; set; }
 
         /// <summary>

@@ -95,7 +95,7 @@ This way, the CreatePerson method becomes a unit of work and manages the databas
 connection and transaction. Both repositories use the same unit of work.
 Note that you do not need the UnitOfWork attribute if this is an application
 service method. See the '[unit of work method
-restrictions](#uow-restrictions)' section.
+restrictions](#unitofwork-attribute-restrictions)' section.
 
 There are options for the UnitOfWork attribute. See the 'unit of work in
 detail' section. The UnitOfWork attribute can also be used on classes to
@@ -240,7 +240,7 @@ update the name of a person:
     }
 
 That's all you have to do! The name was updated. We didn't even have to call
-the \_personRepository.Update method. The O/RM framework keeps track of all
+the \_personRepository.Update method. The ORM framework keeps track of all
 the changes of entities in a unit of work and reflects these changes to the
 database.
 
